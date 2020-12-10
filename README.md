@@ -1,1 +1,1 @@
-# My homework,exercise and exams from Java Advanced coure in SoftUni
+# Exercise from Java Programming Book by Svetlin Nakov
