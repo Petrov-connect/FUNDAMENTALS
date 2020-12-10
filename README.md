@@ -1,1 +1,1 @@
-# Exercise from Java Programming Book by Svetlin Nakov
+# Exercise from Java Programming Book
