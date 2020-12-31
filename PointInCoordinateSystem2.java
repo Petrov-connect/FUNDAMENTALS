@@ -1,6 +1,6 @@
 import java.util.Scanner;
 // created by J.M.
-public class proba {
+public class PointInCoordinateSystem2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int h=Integer.parseInt(scan.nextLine());
