@@ -1,9 +1,13 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class AreaOfFigures {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         String figure = scan.nextLine();
+
         switch (figure) {
             case "square": {
                 double a = Double.parseDouble(scan.nextLine());
