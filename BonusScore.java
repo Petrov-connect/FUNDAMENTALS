@@ -1,10 +1,15 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class BonusScore {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         int num = Integer.parseInt(scan.nextLine());
+
         double bonus = 0;
+
         if (num <= 100) {
             bonus += 5;
         } else if (num > 1000) {
