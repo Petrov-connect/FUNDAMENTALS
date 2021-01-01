@@ -1,12 +1,17 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class CurrencyConverter {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         double num=Double.parseDouble(scan.nextLine());
         String type1=scan.nextLine();
         String type2=scan.nextLine();
+
         double sum=0;
+
         switch (type1){
             case"BGN":
                 switch(type2){
