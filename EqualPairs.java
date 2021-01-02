@@ -1,11 +1,17 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class EqualPairs {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
-        int n=Integer.parseInt(scan.nextLine());
-        int [] arr= new int[n]; int maxDiff=0;
-        for (int i = 0; i <n ; i++) {
+        int n = Integer.parseInt(scan.nextLine());
+
+        int[] arr = new int[n];
+        int maxDiff = 0;
+
+        for (int i = 0; i < n; i++) {
             int num1 = Integer.parseInt(scan.nextLine());
             int num2 = Integer.parseInt(scan.nextLine());
             arr[i] = num1 + num2;
@@ -16,10 +22,10 @@ public class EqualPairs {
                 }
             }
         }
-        if(maxDiff==0){
+        if (maxDiff == 0) {
             System.out.println("Yes, value=" + arr[0]);
-        }else{
-            System.out.println("No, maxdiff="+maxDiff);
+        } else {
+            System.out.println("No, maxdiff=" + maxDiff);
         }
     }
 }
