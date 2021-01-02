@@ -28,6 +28,7 @@ public class Diamond {
             leftRight--;
         }
         leftRight=0;
+
         for (int i = 0; i<(n-1)/2; i++) {
             leftRight++;
             System.out.print(generateFrom(leftRight));
