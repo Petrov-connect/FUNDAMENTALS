@@ -1,9 +1,13 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class GreetingByName {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         String name = scan.nextLine();
-        System.out.printf("Hello, %s!",name);
+
+        System.out.printf("Hello, %s!", name);
     }
 }
