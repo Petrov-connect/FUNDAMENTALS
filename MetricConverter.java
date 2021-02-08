@@ -1,11 +1,15 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class MetricConverter {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         double num = Double.parseDouble(scan.nextLine());
         String inputMetric=scan.nextLine().toLowerCase();
         String exitMetric=scan.nextLine().toLowerCase();
+
             switch (inputMetric) {
                 case "mm": num /= 1000;           break;
                 case "cm": num /= 100;            break;
