@@ -1,7 +1,10 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class PointOnRectangleBorder {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         double x1 = Double.parseDouble(scan.nextLine());
         double y1 = Double.parseDouble(scan.nextLine());
