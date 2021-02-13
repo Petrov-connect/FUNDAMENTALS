@@ -1,7 +1,10 @@
 import java.util.Scanner;
+
 // created by J.M.
 public class StopNumber {
+
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
         int m = Integer.parseInt(scan.nextLine());
